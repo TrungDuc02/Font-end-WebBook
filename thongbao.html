@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HƯỚNG DẪN SỬ DỤNG</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!--  css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
+</head>
+<body>
+    <!-- header section starts  -->
+<header class="header">
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> HUNRE LIBRARY</a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Tìm Kiếm..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="Danhmucyeuthich.html" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+     </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giới Thiệu</a>
+            <a href="danhmuctl.html">Danh mục tài liệu</a>
+            <a href="noiquy.html">Nội quy thư viện</a>
+            <a href="thongbao.html">Thông báo</a>
+            <a href="lienhevagopy.html">Liên hệ và góp ý</a>
+        </nav>
+    </div>
+
+</header>
+<!-- header section ends -->
+<!-- bottom navbar  -->
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>THƯ VIỆN HUNRE</h3>
+        <span>Tên Tài Khoản</span>
+        <input type="email" name="" class="box" placeholder="nhập địa chỉ email..." id="">
+        <span>Mật khẩu</span>
+        <input type="password" name="" class="box" placeholder="nhập mật khẩu..." id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> Nhớ mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng Nhập" class="btn">
+        <p>Quên Mật khẩu ? <a href="#">click here</a></p>
+        <p>Bạn chưa có tài khoản ? <a href="login.html">Tạo tài khoản</a></p>
+    </form>
+</div>
+
+
+<!--------THong Bao------------->
+
+<div class="tb">
+    <p><a class="tbnb" href="#">Thông Báo Nổi Bật</a></p>
+</div>
+
+    <div class="tb1">
+        <div class="slide1">
+            <div class="dieuhuong">
+                <i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+                <i class="fa fa-chevron-circle-right" onclick="Next();"></i>   
+            </div>
+            <div class="slide1-chuyen">
+                <img src="image/tb1.jpg" alt="">
+                <img src="image/tb2.jpg" alt="">
+                <img src="image/tb3.jpg" alt="">
+                <img src="image/tb4.jpg" alt="">
+                <img src="image/tb5.jpg" alt="">
+                <img src="image/tb6.jpg" alt="">
+                <img src="image/tb7.jpg" alt="">
+                <img src="image/tb8.jpg" alt="">
+                <img src="image/tb9.jpg" alt="">
+                <img src="image/tb10.jpg" alt="">
+                <img src="image/tb11.jpg" alt="">
+                <img src="image/tb12.jpg" alt="">
+                <img src="image/tb13.jpg" alt="">
+                <img src="image/tb14.jpg" alt="">
+            </div>
+            <hr>
+                <p class="ctb1"><a class="tbnn" href="#">Đại học TN&MT HN tham gia chung kết “Thử thách các nhà lãnh đạo trẻ môi trường toàn cầu 
+                    (GLOBAL LEADER SUMMIT)” tại Singapore.</a></p>
+            <hr>
+            <p class="ctb3">00:00:00 - 29.08.2022</p>
+            <p class="ctb2"> Trong 03 ngày (từ ngày 23-25 tháng 8 năm 2022), tại Singapore, Trường Đại học Tài nguyên và Môi trường Hà Nội đã có 2 nhóm sinh viên tham gia vòng chung kết Chương trình “Hành động vì trái đất - 
+                Chung kết chương trình thử thách các nhà lãnh đạo môi trường trẻ toàn cầu 2022 (GLS)” và đạt top 26 dự án xuất sắc nhất cuộc thi do Quỹ Hemisphere Foundation - Tổ chức phi chính phủ của Singapore tổ chức.</p>
+        </div>
+        
+    </div>
+    <!-----thong bao 2------->
+    <div class="tb2">
+        <img class="anhtb2" src="image/anhtb2.jpg" alt="">
+        <p class="ctb4"><a class="tbnn" href="#">Hội thảo quốc tế "Tiến tới phát thải ròng bằng không: Chính sách và thực tiễn".</a></p>
+        <p class="ctb3" style="margin-left:265px ;">00:00:00 - 05.10.2022</p>
+        <p class="ctb5">Ngày 05/10, Trường Đại học Tài nguyên và Môi trường Hà Nội đã tổ chức thành công hội thảo quốc tế “Towards net zero emissions: Policy and Practice” 
+            (Tiến tới phát thải ròng bằng không: Chính sách và thực tiễn).</p>
+    </div>
+
+
+    <div class="tb3">
+        <img class="anhtb2" src="image/anhtb3.jpg" alt="">
+        <p class="ctb4"style="letter-spacing: -0.5px;"><a class="tbnn" href="#" >Trường Đại học Tài nguyên và Môi trường Hà Nội tham gia cuộc thi hùng biện “Thanh niên hỗ trợ cộng đồng giảm nhẹ rủi ro thiên tai”.</a></p>
+        <p class="ctb3" style="margin-left:265px ;">00:00:00 - 01.10.2022</p>
+        <p class="ctb5">Hưởng ứng Ngày Quốc tế phòng tránh và giảm nhẹ rủi ro thiên tai và Ngày ASEAN về Quản lý thiên tai.</p>
+    </div>
+    <hr>
+
+    <!-------Danh sach thong bao----------->
+    <div class="tb"style="margin-top:100px ;">
+        <p><a class="tbnb"  href="#" >Danh Sách Thông Báo</a></p>
+    </div>
+    <!--------thong bao tong-------->
+    <div class="tb4"> 
+
+        <div class="kedong">
+            <p class="ctbtt"><a class="ctbt" href="#">Thư viện gửi sinh viên năm học mới 2022-2023</a></p>
+            <p class="ctb3" style="margin-left:25px ;">00:00:00 - 30.08.2022</p>
+            <p class="ctb6">Nhiệt liệt chào mừng các bạn quay trở lại sau kỳ nghỉ hè! Xin trân trọng thông báo tới các bạn rằng Thư viện HUNRE hiện đã sẵn sàng phục vụ các bạn bước vào năm học mới 2022 - 2023. 
+                Sau đây là một số thông tin hữu ích đối với các bạn khi đến với Thư viện:</p>
+        </div>
+
+        <div class="kedong1">
+            <p class="ctbtt"><a class="ctbt" href="#">Thông báo thay đổi thời gian phục vụ</a></p>
+            <p class="ctb3" style="margin-left:25px ;">11:19:09 - 29.06.2022</p>
+            <p class="ctb6">Thông báo thay đổi thời gian phục vụ bạn đọc của Thư viện dịp hè năm học 2021-2022</p>
+        </div>
+
+        <div class="kedong2">
+            <p class="ctbtt"><a class="ctbt" href="https://dt.hunre.edu.vn/attachment/dt/news/2022/10/28/163317_4035_K%E1%BA%BF%20ho%E1%BA%A1ch%20kh%C3%A1m%20s%E1%BB%A9c%20kh%E1%BB%8Fe%20cho%20sinh%20vi%C3%AAn%20%C4%90H11,12_2022_Signed.pdf">Kế hoạch khám sức khỏe cho sinh viên ĐH11, ĐH12</a></p>
+            <p class="ctb3" style="margin-left:25px ;">00:00:00 - 27.10.2022</p>
+            <p class="ctb6">I. Đối tượng:
+                Sinh viên hệ Đại học chính quy khóa 11 và khóa 12 đang theo học tại Trường.</p>
+                <hr>
+              <p class="ctb6">
+                II. Nội dung khám sức khỏe:
+                Nội dung khám sức khỏe theo quy định tại Thông tư số 33/2021/TT-BYT, ngày 31
+                tháng 12 năm 2021 của Bộ trưởng Bộ Y tế.</p> 
+               
+              <p class="ctb6" >III. Hình thức khám sức khỏe:
+                Nhà trường lựa chọn cơ sở Y tế có đủ điều kiện thực hiện việc khám sức khỏe theo
+                hướng dẫn của Thông tư số 33/2021/TT-BYT. <hr></p>
+            <p class="ctb6">
+                ngày 31 tháng 12 năm 2021 của Bộ trưởng
+                Bộ Y tế để ký hợp đồng khám sức khỏe cho sinh viên.
+                Trong thời gian Nhà trường tổ chức khám sức khỏe cho sinh viên, nếu sinh viên
+                không đến khám thì xem như tự bỏ quyền lợi của mình, sinh viên phải tự đi khám sức khỏe
+                để bổ sung vào hồ sơ theo dõi sức khỏe sinh viên theo quy định.
+            </p>    
+        </div>
+
+        <div class="kedong3">
+            <p class="ctbtt"><a class="ctbt" href="https://dt.hunre.edu.vn/attachment/dt/news/2022/10/21/174707_TKB12_Ban%20h%C3%A0nh%20chu%E1%BA%A9n.pdf">Thời khóa biểu cho sinh viên đại học chính quy khóa 12, HK1 năm học 2022-2023</a></p>
+            <p class="ctb3" style="margin-left:25px ;">00:00:00 - 21.10.2022</p>
+            <p class="ctb6">THÔNG BÁO:
+                THỜI KHÓA BIỂU HỌC KỲ 1 NĂM HỌC 2022 - 2023
+            <p class="ctb6"> Áp dụng cho sinh viên đại học chính quy khóa 12</p> 
+             <p class="ctb6">thời khóa biểu này thay thế cho Thời khóa biểu số 3699/ TBTKB - TĐHHN ngày 04 tháng 10 năm 2022 của Hiệu trưởng Trường Đại học Tài nguyên và Môi trường Hà Nộ<i class=""></i></p> 
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------end web---------->
+<div class="footers" style="margin-top: 100px;">
+    <div>
+        <p style="margin-left: 50px;" >ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG HÀ NỘI</p> 
+        <P style="margin-left: 50px;margin-top: 7px;">Địa chỉ: Số 41A đường Phú Diễn, Q. Bắc Từ Liêm, TP. Hà Nội</P>
+        <p style="margin-left: 50px;margin-top: 7px;">Điện thoại: 0902 130 130 | Email: DHTNMT@hunre.edu.vn</p> 
+        <hr>
+        <p class="copyright">Copyright 2022 - Le Trung Duc</p>
+    </div>
+</div>        
+<!---------java script login------------->
+
+<script src="script.js"></script>
+<script type="text/javascript" src="slide.js"></script>
+</body>
+</html>

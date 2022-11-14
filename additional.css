@@ -1,0 +1,25 @@
+/*Gioi thieu*/
+.ls{
+    margin-top: 20px;
+    color: red;
+    margin-left: 150px;
+    font-size: 23px;
+  }
+  .anhkn{
+    width: 100px;
+    height: 30px;
+  }
+
+  .ls1{ 
+    font-size: 17.5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 8px;
+    margin-left: 85px;
+    width: 1350px ;
+    height: 1320px;
+    text-align: justify;
+  }
+
+  
